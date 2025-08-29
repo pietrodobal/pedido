@@ -1,0 +1,369 @@
+/* Estilos para a página falsa do Google */
+/*-------------------------------------*/
+.google-page-body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.google-page-body header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.google-page-body header nav a {
+    text-decoration: none;
+    color: #5f6368;
+    margin-left: 15px;
+    font-size: 13px;
+}
+.google-page-body main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.google-page-body .logo img {
+    width: 272px;
+}
+.google-page-body .search-bar {
+    position: relative;
+    width: 584px;
+    margin-top: 20px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+}
+.google-page-body .search-bar:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+.google-page-body .search-input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    height: 34px;
+}
+.google-page-body .voice-icon {
+    height: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.google-page-body .buttons {
+    margin-top: 20px;
+}
+.google-page-body .buttons button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.google-page-body .buttons button:hover {
+    border: 1px solid #dadce0;
+}
+.google-page-body footer {
+    background-color: #f2f2f2;
+    padding: 15px 30px;
+    color: #5f6368;
+    font-size: 14px;
+    border-top: 1px solid #dadce0;
+}
+.google-page-body .country {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dadce0;
+}
+.google-page-body .links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.google-page-body .left-links a,
+.google-page-body .right-links a {
+    text-decoration: none;
+    color: #5f6368;
+    margin-right: 25px;
+}
+/* Estilos para a página de erro padrão do Google (erro.html) */
+/*-------------------------------------*/
+.google-error-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    color: #444;
+}
+.error-container {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+}
+.robot-img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+.error-container h1 {
+    font-size: 3em;
+    font-weight: normal;
+    margin: 0;
+    color: #d93025;
+}
+.error-container p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.button-container {
+    margin-top: 30px;
+}
+.solve-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4285f4;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.solve-button:hover {
+    background-color: #357ae8;
+}
+
+/* Estilos para a página de erro romântico (julia.html) */
+/*-------------------------------------*/
+.erro-romantico-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: pink;
+    color: #333;
+}
+.erro-romantico-page .container {
+    text-align: center;
+    max-width: 600px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+.erro-romantico-page h1, .erro-romantico-page h2 {
+    color: #FF6EB4;
+    text-shadow: 1px 1px #ccc;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+.erro-romantico-page h2 {
+    font-size: 1.7em;
+}
+.erro-romantico-page .gracinha-erro p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #FF6EB4;
+    text-shadow: 1px 1px #ccc;
+}
+.erro-romantico-page .gracinha-erro button {
+    background-color:#ff00aafd;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.erro-romantico-page .gracinha-erro button:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para a página do pedido (pedido.html) */
+/*----------------------------------------------------*/
+/* Estilos para a página do pedido de namoro (pedido.html) */
+/*----------------------------------------------------*/
+
+/* Estilo do corpo da página (fundo rosa suave) */
+.pedido-page {
+    font-family: 'Georgia', serif;
+    background-color: #ffe8f2; /* Rosa bem clarinho */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Container principal */
+.pedido-page .container {
+    max-width: 900px;
+    padding: 60px 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    line-height: 1.8;
+}
+
+/* Títulos */
+.pedido-page header h1,
+.pedido-page h2 {
+    color: #ff69b4; /* Rosa mais vibrante */
+    font-family: 'Playfair Display', serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.pedido-page header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.pedido-page h2 {
+    font-size: 2em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* Parágrafos e texto */
+.pedido-page p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Galeria de Fotos */
+.pedido-page  {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* Espaço entre as fotos */
+}
+
+.pedido-page img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover; /* Para as fotos ficarem uniformes */
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    transform: rotate(-3deg); /* Inclinação sutil */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pedido-page  img:nth-child(even) {
+    transform: rotate(3deg); /* Inclina as fotos pares para o outro lado */
+}
+
+.pedido-page  img:hover {
+    transform: scale(1.05) rotate(0deg); /* Zoom e endireitamento ao passar o mouse */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Seção de texto final */
+.pedido-page .final-section {
+    margin-top: 60px;
+}
+
+.pedido-page .final-section p {
+    font-style: italic;
+    color: #666;
+}
+
+/* Botão final */
+.pedido-page .next-button button {
+    background-color: #ff69b4; /* Rosa do coração */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 30px;
+}
+
+.pedido-page .next-button button:hover {
+    background-color: #f052a0;
+    transform: scale(1.05);
+}
+
+/* Estilos para a página da pergunta final (pergunta.html) */
+/*----------------------------------------------------*/
+/* Estilos para a página da pergunta final (pergunta.html) */
+/*----------------------------------------------------*/
+.body-pergunta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #FF6EB4; /* Cor de fundo principal */
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    width: 600px;
+    background-color: #d9f7f7;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card > .question p {
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.card .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.card .btn-yes, .card .btn-no {
+    height: 48px;
+    width: 100px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card .btn-yes {
+    background-color: #9AFF9A;
+}
+
+.card .btn-no {
+    background-color: #FF4040;
+    color: #fff;
+}
+
+.card .answer {
+    display: none;
+}
+
+.card .answer > p {
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #FF6EB4;
+    text-shadow: 1px 1px #000;
+}
